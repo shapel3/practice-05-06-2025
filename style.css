@@ -9,3 +9,18 @@ h3 {
   font-weight: 500;
   font-style: normal;
 }
+.wrapper{
+  min-width: 376px;
+  max-width: 1280px;
+  width: 95%;
+  margin: auto;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

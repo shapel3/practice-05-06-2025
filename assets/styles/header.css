@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    margin-right: 5px;
+}
+.menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    height: 197px;
+    width: 177px;
+    border-radius: 18px;
+    padding: 44px;
+    text-align: center;
+    box-shadow: 0px 10px 25px #00000022;
+}
+.burger{
+    background-image: url(./../icons/Hamburguer.svg);
+    height: 42px;
+    width: 43px;
+}
+.burger:hover+.menu{
+    display: block;
+}
+.menu>li:first-child>a{
+    color: #F59E0B;
+}
+.menu>li:nth-child(2)>a{
+    color: #38BDF8;
+}
+.menu>li:nth-child(3)>a{
+    color:#34D399;
+}
+.menu>li>a{
+    padding: 8px 0px;
+    display: block;
+    font-size: 16px;
+}
